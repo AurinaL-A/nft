@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.create {
+    
+    background: #2b2b2b;
+    .container{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+
+    &_row {
+        display: flex;
+        align-items: center;
+        max-width: 1280px;
+        flex-wrap: wrap;
+    }
+
+    .create_div_2 {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        max-width: 460px;
+        flex-wrap: wrap;
+    }
+
+    p {
+        color: #ffffffad;
+        font-size: 22px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding-bottom: 40px;
+        line-height: 40px;
+    }
+
+    .img_div {
+        width: 610px;
+        height: 691px;
+    }
+
+    h3 {
+        color: rgb(255, 255, 255);
+        font-size: 51px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input_div {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        width: 330px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .input_div2 {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #413ee6, #c023d5, #A259FF);
+        background-size: 400% 400%;
+        animation: sign_up 7s ease infinite;
+        transition: 0.7s;
+        border-radius: 20px;
+        width: 330px;
+        border: none;
+        height: 46px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .input_div2:hover {
+        animation: none;
+        transform: scale(1.1);
+    }
+
+    .user {
+        height: 16px;
+        border: none;
+        color: black;
+        margin-left: 20px;
+        background-color: white;
+        border-radius: 0;
+        font-size: 16px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-right: 12px;
+        width: 258px;
+        padding-left: 2px;
+        outline-width: 0;
+    }
+
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.Card {
+
+    background: #3b3b3b;
+    border-radius: 20px;
+    width: 240px;
+    height: 238px;
+    text-align: center;
+    transition: 0.7s;
+
+}
+.Card:hover {
+    transform: scale(1.06);
+}
+.Number{
+    position: relative;
+    left: 30px;
+    top: 22px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    background: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #858584;
+
+    }
+    .textdiv2{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .text{
+        padding-top: 15px;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+
+    }
+    .text2{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+   
+        color: #858584;
+    }
+    .text3{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }

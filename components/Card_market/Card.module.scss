@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.Card {
+    width: 330px;
+    height: 460px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background: #222222;
+    transition: 0.7s;
+}
+.Card:hover {
+    transform: scale(1.06);
+}
+.image {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: capitalize;
+color: #fff;
+}
+.nametext{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+.texts {
+    width: 135px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texts2 {
+    width: 270px;
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.texts3 {
+    width: 135px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+.text2{
+    color: #858584;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.text3{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFF;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.textdivs {
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+.textdiv {
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.textdiv2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    font-size: 16px;
+    padding-right: 100%;
+    text-wrap: nowrap;
+}
+.avatar_img{
+    padding-right: 12px;
+}

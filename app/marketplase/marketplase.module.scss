@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.main {
+    background: #2b2b2b;
+    .container{
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+	.back{
+		padding-top: 60px;
+		background: #3b3b3b;
+	}
+	form{
+		
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 30px;
+		border: 1px solid #3b3b3b;
+		border-radius: 20px;
+		padding: 12px 0px;
+		width: 1050px;
+		height: 60px;
+	}
+	.search_input{
+		width: 960px;
+		height: 22px;
+		color: #858584;
+		background-color: none;
+		border: 0px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		border-color: none;
+		font-style: normal;
+		font-size: 16px;
+		background: transparent;
+	}
+	.search_btn{
+		background-color: none;
+		border-color: none;
+		border: none;
+		cursor: pointer;
+		width: 10px;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: transparent;
+	}
+
+
+	&_row {
+
+		padding-top: 80px;
+	}
+
+	.p {
+		color: #ffffffd8;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+
+		line-height: 40px;
+
+	}
+
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 38px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+
+	.block2{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 80px;
+		
+	}
+	.flex{
+		display: flex;
+		gap: 16px;
+		align-items: center;
+		
+	}
+	.choose{
+		display: flex;
+		justify-content: center;
+		border-bottom: 1px solid #858584;
+		width: 525px;
+		padding-bottom: 14px;
+	}
+	.choose_line{
+		display: flex;
+		justify-content: center;
+		width: 525px;
+	}
+
+	.collections{
+		font-family: var(--second-family);
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 140%;
+		text-transform: capitalize;
+		text-align: center;
+		color: #858584;
+	}
+	.nfts{
+		font-family: var(--second-family);
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 140%;
+		text-transform: capitalize;
+		text-align: center;
+		color: #fff;
+	}
+	.Card{
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		flex-wrap: wrap;
+		background: #3b3b3b;
+	}
+
+
+	.Cards {
+		width: 50px;
+		height: 32px;
+		background-color: #858584;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 20px;
+		font-family: var(--font-family) ;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		color: #fff;
+	}
+
+	.Cards2 {
+		width: 50px;
+		height: 32px;
+		background-color: #3B3B3B;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 20px;
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		color: #fff;
+ 
+	}
+
+}

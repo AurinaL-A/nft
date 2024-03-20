@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.main{
+    background: #2b2b2b;
+    .container{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &__row{
+        display: flex;
+        gap: 60px;
+        align-items: center;
+    }
+    .text__h1{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    .text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #fff;
+        padding-bottom: 40px;
+    }
+    .sign_up{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+        gap: 20px;
+		padding-left: 40px;
+		padding-right: 20px;
+		border-radius: 20px;
+		background: #3B3B3B;
+		transition: 0.7s;	
+		max-width: 320px;
+		height: 72px;
+		margin-bottom: 20px;
+		border: 1px solid #A259FF;
+	}
+	.sign_up:hover{
+		animation: none;
+		transform: scale(1.06);
+	}
+    .p2{
+        color: rgb(255, 255, 255);
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+		text-align: left;
+		
+    }
+}

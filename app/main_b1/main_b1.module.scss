@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+
+/*
+
+  const Num = useRef(null)
+  useEffect(() => {
+    var roundLogEl = document.querySelector('.round-log');
+    anime({
+      targets: Num.current, roundLogEl,
+      innerHTML: [0, 240],
+      duration: 3000,
+      easing: 'linear',
+      round: 10 // Will round the animated value to 1 decimal
+
+    });
+
+  }, []);
+
+  const Num2 = useRef(null)
+  useEffect(() => {
+    var roundLogEl = document.querySelector('.round-log');
+    anime({
+      targets: Num2.current, roundLogEl,
+      innerHTML: [0, 100],
+      duration: 3000,
+      easing: 'linear',
+      round: 10 // Will round the animated value to 1 decimal
+    });
+
+  }, []);
+
+  const Num3 = useRef(null)
+  useEffect(() => {
+    var roundLogEl = document.querySelector('.round-log');
+    anime({
+      targets: Num3.current, roundLogEl,
+      duration: 3000,
+      innerHTML: [0, 240],
+      easing: 'linear',
+      round: 10 // Will round the animated value to 1 decimal
+    });
+
+  }, []);*/
+
+	&_row {
+        padding-top: 80px;
+        padding-bottom: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        gap: 30px;
+		flex-wrap: wrap;
+		
+	}
+
+	.p {
+		color: #ffffffad;
+		font-size: 22px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 40px;
+		line-height: 40px;
+
+	}
+
+	.p2 {
+		font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+		transform: scale(1);
+		transition: 0.7s;
+
+	}
+
+	.p3 {
+		color: #ffffffad;
+		font-size: 24px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+
+	}
+
+	.p4 {
+		color: #FFFFFF;
+		font-size: 28px;
+		font-family: var(--font-family);
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 40px;
+
+	}
+
+	h3 {
+		color: rgb(255, 255, 255);
+		font-size: 67px;
+		font-family: "Work Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-bottom: 20px;
+	}
+
+	.block_1 {
+		display: flex;
+		align-items: center;
+		max-width: 510px;
+		flex-wrap: wrap;
+	}
+
+	.block_1_2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        gap: 30px;
+		max-width: 510px;
+		margin-top: 30px;
+	}
+
+	.Get_Started {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
+		border-radius: 20px;
+		background: linear-gradient(-45deg, #ee7752, #e73c7e, #413ee6, #c023d5, #A259FF);
+		background-size: 400% 400%;
+		animation: sign_up 7s ease infinite;
+		transition: 0.7s;
+		width: 224px;
+		height: 60px;
+	}
+
+	.Get_Started:hover {
+		animation: none;
+		transform: scale(1.1);
+	}
+
+    .Card {
+        width: 510px;
+        height: 510px;
+        border-radius: 30px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 12px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .image {
+        width: 510px;
+        height: 401px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image2 {
+        width: 354px;
+        height: 300px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
+    }
+    
+    .text {
+        width: 354px;
+        margin-bottom: 16px;
+        font-size: 22px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    
+    
+    }
+    
+    .text2 {
+        width: 354px;
+        font-size: 16px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 200;
+        color: #ffffffa4;
+    }
+    .div_avatar{
+        display: flex;
+        justify-content: space-between;
+        min-width: 400px;
+        align-items: center;
+    }
+    .textdivs {
+        margin-bottom: 20px;
+        background-color: #3B3B3B;
+        width: 510px;
+        height: 110px;
+        border-radius:0% 0% 20px 20px;
+        padding-left:20px ;
+        padding-top:22px ;
+        padding-bottom:22px ;
+    }
+    .animakid{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+    .spase{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    .textdiv {
+        width: 354px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

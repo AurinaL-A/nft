@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.Card {
+    
+    height: 84px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #3B3B3B;
+}
+.username{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.image {
+
+    transition: 0.7s;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+.flex{
+    display: flex;
+    gap: 115px;
+    padding-right: 100px;
+}
+
+.text {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #fff;
+    width: 300px;
+    margin-right: 60px;
+}
+    
+.text2{
+    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #00ac4f;
+}
+
+.text3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+.textdivs {
+    margin-bottom: 20px;
+    width: 240px;
+}
+
+.textdiv {
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.textdiv2{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+.Number{
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: #858584;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.Card {
+    max-width: 330px;
+    height: 520px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.image {
+    
+    transition: 0.7s;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+.small_image_group{
+margin-top: 15px;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 15px;
+max-width: 330px;
+}
+
+
+.small_image{
+    transition: 0.7s;
+}
+.small_image:hover{
+    transform: scale(1.1);
+}
+.text {
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: capitalize;
+color: #fff;
+}
+
+.text2 {
+
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #fff;
+}
+.div_avatar{
+    padding-top: 10px;
+    display: flex;
+    gap: 12px;
+}

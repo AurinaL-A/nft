@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.Card {
+    max-width: 240px;
+    height: 316px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #3B3B3B;
+    transition: 0.7s;
+}
+.Card:hover {
+    transform: scale(1.06);
+}
+.textdiv{
+    padding: 20px 30px 25px 30px;
+}
+.text{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #fff;
+}

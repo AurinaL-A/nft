@@ -1,0 +1,319 @@
+.main{
+    background: #2b2b2b;
+    .container{
+        max-width: 1050px;
+        margin: 0 auto;
+        
+       
+    }
+    .mini__text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    /*2*/
+    .trending__text{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    /*3*/
+    .btn_rankings{
+        position: relative;
+        top: 30px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border: 2px solid #a259ff;
+        border-radius: 20px;
+        width: 247px;
+        height: 60px;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        transition: 0.7s;
+    }
+    .btn_rankings:hover{
+        background-color: #9d53ff75;
+        transform: scale(1.06);
+    }
+    /*4*/
+    &__row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text__categ{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    
+    .Cards{
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 60px;
+    } 
+    /*5*/
+    .btn_started{
+        position: relative;
+        top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        background-color: transparent;
+        border: 2px solid #a259ff;
+        border-radius: 20px;
+        width: 187px;
+        height: 60px;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        transition: 0.7s;
+    }
+    .btn_started:hover{
+        background-color: #9d53ff75;
+        transform: scale(1.06);
+    }
+    .discover_b{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    /*6*/
+    .block6{
+        
+        background: linear-gradient(180deg, transparent 0%, #a259ff 100%),url("../image/main/mushrooms.png");
+        background-position: center;
+        margin-bottom: 50px;
+        
+    }
+    .blocks{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 60px;
+        min-height: 640px;
+        flex-wrap: wrap;
+    }
+    .user{
+        display: flex;
+        justify-content: center ;
+        gap: 12px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        width: 151px;
+        height: 44px;
+        background: #3b3b3b;
+    }
+    .text__ava{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+    .magic_text{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    .width{
+        width: 198px;
+    }
+    .btn_mush{
+        border-radius: 20px;
+        width: 198px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border: none;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #2b2b2b;
+  
+        transition: 0.7s;
+    }
+    .btn_mush:hover{
+        transform: scale(1.06);
+    }
+    .left__block6{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right__block6{
+        
+        border-radius: 20px;
+        padding: 30px;
+        width: 295px;
+        height: 147px;
+        backdrop-filter: blur(10px);
+        background: rgba(59, 59, 59, 0.5);
+    }
+    .timer_action{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    .timer_action_2{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #fff;
+    }
+    .timer_hours{
+        
+        display: flex;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+     /*7*/
+    .cards_7{
+        padding-top: 50px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
+    .card_7{
+        transition: 0.7s;
+        background: #3b3b3b;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px 30px 30px 30px;
+        width: 330px;
+        height: 439px;
+    }
+    .card_7:hover{
+        transform: scale(1.06);
+    }
+    .text_7b{
+        padding-top: 20px;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    .text_mini7b{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*8*/
+    .block_8{
+        padding-bottom: 80px;
+    }
+    .block_81{
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        max-width: 1050px;
+        height: 430px;
+        background: #3b3b3b;
+        
+    }
+    .forma{
+        margin-top: 20px;
+        border-radius: 20px;
+        background: #fff;
+        width: 425px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mail{
+        background-color: transparent;
+        border: none;
+        padding-left: 20px;
+        max-width: 275px;
+    }
+    .mail::placeholder{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2b2b2b;
+    }
+    .mini_mail{
+        position:relative;
+        top: 20px;
+        left: 65px;
+    }
+    .btn__form{
+        padding-left: 20px;
+        border-radius: 20px;
+        border: none;
+        width: 179px;
+        height: 60px;
+        background: #a259ff;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+    }
+    .join__text{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    
+    .image{
+        padding-left: 60px;
+    }
+    
+}
